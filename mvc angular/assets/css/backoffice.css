@@ -1,0 +1,205 @@
+td img{
+	height: 8vh;
+}
+
+table { 
+	
+	width:100%;
+	border-collapse: collapse; 
+	/*margin:50px auto;*/
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+
+	}
+td{
+	text-align :center;
+	margin: 0;
+}
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	font-size: 18px;
+}
+
+form{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+fieldset {
+margin-bottom: 15px;
+padding: 10px;
+width:30%;
+}
+
+legend {
+padding: 0px 3px;
+font-weight: bold;
+font-variant: small-caps;
+}
+
+label {
+width: 110px;
+display: inline-block;
+vertical-align: top;
+margin: 6px;
+}
+
+
+
+input:focus , textarea:focus{
+background: #eaffff;
+}
+
+input, textarea {
+width: 249px;
+}
+
+textarea {
+height: 100px;
+}
+
+
+
+
+input[type=submit] {
+width: 150px;
+padding: 10px;
+margin: 5px;
+width:100px;
+background-color: #3498db;
+color: white;
+border: 2px solid #3498db;
+
+}
+input[type=submit]:hover {
+width: 150px;
+padding: 10px;
+margin: 5px;
+width:100px;
+background-color: rgba(255, 255, 128, 0); 
+color: black; 
+border: 2px solid #3498db;
+}
+
+fieldset{
+	background-color: #eee;
+}
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* CSS */
+.button-89 {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 25px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-89:hover,
+.button-89:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+.button-89:active {
+  background: var(--color);
+  color: #fff;
+}
+
+
+.lien{
+	display: flex;
+  	justify-content:center;
+	margin: 2%;
+	text-decoration: none;
+}
+
+/* 
+Max width before this PARTICULAR table gets nasty
+This query will take effect for any screen smaller than 760px
+and also iPads specifically.
+*/
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 100%; 
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		/* Label the data */
+		content: attr(data-column);
+
+		color: #000;
+		font-weight: bold;
+	}
+
+
+}

@@ -1,0 +1,46 @@
+<section>
+      <main class="d-flex grid gap-5 flex-wrap catalogue" >
+          <div class="titre-catalogue">
+              <h1 class='titre-page'>Chambre proposant la catégorie {{titreCategorie}}</h1>
+              <nav aria-label="breadcrumb" class="fil_arianne">
+                  <ol class="breadcrumb">
+                      <li class="breadcrumb-item"><a href="/" class="lien">Accueil</a></li>
+                      <li class="breadcrumb-item" aria-current="page"><a href="{{currentUrl}}" class="lien" style="color: black;"><strong>{{titreCategorie}}</strong></a></li>
+                  </ol>
+              </nav>
+          </div>
+    <!--<?php 
+    if($articles===null){
+        echo "<h3 style='text-align: center; color: rgb(87, 87, 87);'>Aucune chambre ne correspond à votre recherche.</br>Veuillez réessayer.</h3>";
+    }else {
+    foreach($articles as $article){ ?>-->
+      <div class="card " style="width: 25rem;" *ngFor="let elt of monTableau">
+        <img src="/assets{{elt.image}}" class="card-img-top img"  alt="{{elt.alt}}">
+        <div class="card-body">
+            <h5 class="card-title"><b>{{elt.titre}}</b></h5>
+            <p class="card-text">{{elt.contenu | slice:0:100}}</p>
+            <h4 class="price">{{elt.prix | number: '.0'}} XPF</h4>
+            <div class="form-group">
+              <label for="date-arrivee">Date d'arrivée :</label>
+              <input type="date" class="form-control" id="date-arrivee">
+            </div>
+
+            <div class="form-group">
+              <label for="date-depart">Date de départ :</label>
+              <input type="date" class="form-control" id="date-depart">
+            </div>
+
+            <div class="btn-card">
+              <a href="/evenement/detail-chambre/{{elt.slug}}" class="btn btn-lg btn-dark ms-3 voirplus" data-id="{{elt.id}}">Voir +</a>
+              <a class="ms-3 btn btn-warning add-to-card btn-circle p-2 link-offset-2 link-underline link-underline-opacity-0" data-id="{{elt.id}}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-add-to-card me-2" viewBox="0 0 16 16">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                </svg>
+              </a>
+            </div>
+        </div>
+    </div>
+    <!--<?php } } ?>-->
+    </main>
+</section>
+  

@@ -1,0 +1,224 @@
+  /*css pour la frise chronologique qui ne s'affiche pas*/
+  .timeline {
+    padding: 100px 0;
+  }
+  
+  html, body {
+    overflow-x: hidden;
+  }
+  
+ 
+  .timeline {
+    position: relative;
+  }
+  .timeline::before {
+    content: "";
+    background: rgba(255, 192, 32,0.3);
+    width: 5px;
+    height: 99.3%;
+    position: absolute;
+    left: 50%;
+    z-index: 0;
+    transform: translateX(-50%);
+  }
+  
+  .timeline-item {
+    width: 100%;
+    top: 50%;
+  }
+  .timeline-item:nth-child(even) .timeline-content {
+    float: right;
+    padding: 40px 30px 10px 30px;
+  }
+  .timeline-item:nth-child(even) .timeline-content .date {
+    right: auto;
+    left: 0;
+  }
+  .timeline-item:nth-child(even) .timeline-content::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent rgb(233, 233, 233) transparent transparent;
+  }
+  .timeline-item::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .timeline-content {
+    position: relative;
+    width: 45%;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #f5f5f5;
+    box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+  }
+  .timeline-content::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    right: -15px;
+    border-width: 10px 0 10px 15px;
+    border-color: transparent transparent transparent rgb(233, 233, 233);
+  }
+  
+  .timeline-img {
+    width: 30px;
+    height: 30px;
+    background: rgb(213, 213, 213);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: -15px;
+  }
+  .titre-catalogue{
+    width: 100%;
+    margin-top: 3.5%;
+  }
+  .fil_arianne{
+    margin-top: 6%;
+  }
+  .titre-page{
+    text-align: center;
+  }
+  .lien{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+  }
+  .lien-card {
+    background: rgb(255, 192, 32);
+    color: #FFFFFF;
+    padding: 8px 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+  }
+  .lien-card:hover, .lien-card:active, .lien-card:focus {
+    background: rgb(255, 192, 32);
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  .timeline-card {
+    padding: 0 !important;
+  }
+  .timeline-card p {
+    padding: 0 20px;
+  }
+  .timeline-card a {
+    margin-left: 20px;
+  }
+
+  
+  .timeline-img-header {
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .timeline-img-header h2 {
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+  }
+  
+  blockquote {
+    margin-top: 30px;
+    color: #757575;
+    border-left-color: rgb(255, 192, 32);
+    padding: 0 20px;
+  }
+  
+  .date {
+    background: rgb(255, 192, 32);
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .timeline::before {
+      left: 50px;
+    }
+    .timeline .timeline-img {
+      left: 50px;
+    }
+    .timeline .timeline-content {
+      max-width: 100%;
+      width: auto;
+      margin-left: 70px;
+    }
+    .timeline .timeline-item:nth-child(even) .timeline-content {
+      float: none;
+    }
+    .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+      content: "";
+      position: absolute;
+      border-style: solid;
+      width: 0;
+      height: 0;
+      top: 30px;
+      left: -15px;
+      border-width: 10px 15px 10px 0;
+      border-color: transparent #f5f5f5 transparent transparent;
+    }
+  }
+
+
+
+
+
+
+
+  .card{
+    background-color: rgb(233, 233, 233);
+  }
+  .btn-card{
+    display: flex;
+    justify-content: center;
+  }
+  .voirplus{
+    height: 100%;
+  }
+  .voirplus:hover{
+    background-color: rgb(233, 233, 233);
+    color: rgb(27, 27, 27);
+  }
+  svg{
+    width: 100%;
+  }
+  .btn-circle {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .btn-circle:hover{
+    background-color: black;
+    color: rgb(255, 192, 32);
+  }
+  .card-body .btn-circle:hover{
+    background-color: rgb(233, 233, 233);
+    color: black;
+  }
+  .btn-card{
+    margin: 2%;
+  }

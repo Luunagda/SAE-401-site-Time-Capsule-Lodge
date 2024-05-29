@@ -1,0 +1,93 @@
+.image {
+    position: relative; 
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+
+.image::before {    
+      content: "";
+      background-size: cover;
+      background-position: 50% 25%;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.4;
+}
+
+h1 {
+  position: relative;
+  color: #ffffff;  
+  font-size: 14rem;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.chambre-image {
+  width: 120%;
+  height: auto;
+}
+.form-option{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  background-color: rgb(255, 192, 32);
+}
+ul{
+  list-style-type: none;
+}
+/* design checkbox*/
+.checkbox-input {
+  display: none;
+}
+.checkbox-input:checked + label .checkbox:after {
+  transform: translate(-50%, -50%) scale(1);
+}
+.top{
+  margin-top: 10%;
+}
+.checkbox {
+  margin: 2%;
+  border: 1px solid rgb(43, 43, 43);
+  border-radius: 3px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: relative;
+}
+.checkbox:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 15px;
+  height: 15px;
+  background-color: rgb(43, 43, 43);
+  border-radius: 3px;
+  transition: 0.3s;
+}
+label{
+  width: 130%;
+}
+
+.btn-retour img{
+  width: 4%;
+}
+p{
+  font-size: larger;
+}
+li{
+  margin: 3%;
+}
+.row{
+  text-align: justify;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,17 @@
+.nav-link{
+    color: rgb(255, 192, 32);
+    font-size: large;
+    text-decoration: none;
+  }
+  .nav-link:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .underline{
+    width: 25%;
+  }
+  footer{
+    padding-top: 1%;
+    z-index: 300;
+  }

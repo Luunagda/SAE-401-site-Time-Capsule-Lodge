@@ -1,0 +1,19 @@
+<div class="form">
+    <h2 class="login-title">Se connecter</h2>
+  
+    <form class="login-form" [formGroup]="login" (ngSubmit)="onSubmit()">
+      <div *ngIf="errorMessage" class="error-message" [ngStyle]="{ 'color': 'red', 'font-size': '16px', 'font-weight': 'bold', 'text-align':'center' }"
+      >{{ errorMessage }}</div>
+      <div>
+        <label for="login">Login </label>
+        <input id="login" type="text" placeholder="Votre login" name="login" formControlName="username" required/>
+      </div>
+      <div>
+        <label for="password">Password </label>
+        <input id="password" type="password" placeholder="Votre mot de passe" name="password" formControlName="password"  required/>
+      </div>
+  
+      <button class="btn btn-connect" type="submit">Connexion</button>
+    </form>
+  </div>
+  

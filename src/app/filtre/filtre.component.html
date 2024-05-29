@@ -1,0 +1,159 @@
+<form class="form-filtre" [formGroup]="formulaire" (ngSubmit)="filterElements()">
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Prix 
+            </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" >
+                <div class="accordion-body">
+                    <input type="checkbox" class="checkbox-input" formControlName="prix" name="prix[]" id="prix1" value="[0,30000]">
+                    <label for="prix1"> 
+                        <span class="checkbox"></span>
+                        A partir de 30 000 XPF
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="prix" name="prix[]" id="prix2" value="[30001,50000]">
+                    <label for="prix2">
+                        <span class="checkbox"></span>
+                        Entre 30 001 et 50 000 XPF
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="prix" name="prix[]" id="prix3" value="[50001,70000]">
+                    <label for="prix3">
+                        <span class="checkbox"></span>
+                        Entre 50 001 et 70 000 XPF
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="prix" name="prix[]" id="prix4" value="[70001,100000]">
+                    <label for="prix4">
+                        <span class="checkbox"></span>
+                        Entre 70 001 et 100 000 XPF
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Époque 
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" >
+                <div class="accordion-body">
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[0]" id="epoque1" value="[-30000,-5000]">
+                    <label for="epoque1">
+                        <span class="checkbox"></span>
+                        Avant -5000
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[1]" id="epoque2" value="[-5001,-500]">
+                    <label for="epoque2">
+                        <span class="checkbox"></span>
+                        De -5000 à -500
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[2]" id="epoque3" value="[-501,0]">
+                    <label for="epoque3">
+                        <span class="checkbox"></span>
+                        De -501 à 0
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[3]" id="epoque4" value="[1,500]">
+                    <label for="epoque4">
+                        <span class="checkbox"></span>
+                        De 1 à 500
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[4]" id="epoque5" value="[501,1000]">
+                    <label for="epoque5">
+                        <span class="checkbox"></span>
+                        De 501 à 1000
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[5]" id="epoque6" value="[1001,1500]">
+                    <label for="epoque6">
+                        <span class="checkbox"></span>
+                        De 1001 à 1500
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[6]" id="epoque7" value="[1501,1900]">
+                    <label for="epoque7">
+                        <span class="checkbox"></span>
+                        De 1501 à 1900
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[7]" id="epoque8" value="[1901,1950]">
+                    <label for="epoque8">
+                        <span class="checkbox"></span>
+                        De 1901 à 1950
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[8]" id="epoque9" value="[1951,1990]">
+                    <label for="epoque9">
+                        <span class="checkbox"></span>
+                        De 1951 à 1980
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="epoque" name="epoque[9]" id="epoque10" value="[1981,2023]">
+                    <label for="epoque10">
+                        <span class="checkbox"></span>
+                        De 1981 à aujourd'hui
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Lieu 
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" >
+                <div class="accordion-body">
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id1" value="1">
+                    <label for="lieu_id1">
+                        <span class="checkbox"></span>
+                        Afrique
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id2" value="2">
+                    <label for="lieu_id2">
+                        <span class="checkbox"></span>
+                        Amérique du Nord et du Sud
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id3" value="3">
+                    <label for="lieu_id3">
+                        <span class="checkbox"></span>
+                        Europe
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id4" value="4">
+                    <label for="lieu_id4">
+                        <span class="checkbox"></span>
+                        Asie
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id5" value="5">
+                    <label for="lieu_id5">
+                        <span class="checkbox"></span>
+                        Moyen-Orient
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="lieu_id" name="lieu_id[]" id="lieu_id6" value="6">
+                    <label for="lieu_id6">
+                        <span class="checkbox"></span>
+                        Océanie
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Type de chambre 
+                </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" >
+                <div class="accordion-body">
+                    <input type="checkbox" class="checkbox-input" formControlName="type_chambre" name="type_chambre[]" id="type_chambre1" value="couple">
+                    <label for="type_chambre1">
+                        <span class="checkbox"></span>
+                        Chambre de couple (2 personnes)
+                    </label>
+                    <input type="checkbox" class="checkbox-input" formControlName="type_chambre" name="type_chambre[]" id="type_chambre2" value="familial">
+                    <label for="type_chambre2">
+                        <span class="checkbox"></span>
+                        Chambre familiale (5 personnes)
+                    </label>
+                </div>
+            </div>
+          </div>
+      </div>
+    <input class="btn btn-dark ms-3 btn-filtre" type="submit" value="Filtrer">
+</form>

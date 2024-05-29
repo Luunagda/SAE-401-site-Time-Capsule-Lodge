@@ -1,0 +1,82 @@
+.nav-link{
+    color: rgb(255, 192, 32);
+    font-size: large;
+    text-decoration: none;
+  }
+  .nav-link:hover{
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+  }
+  .a-nav{
+    width: 5%;
+  }
+  .logo{
+    width: 100%;
+  }
+  .login{
+    right: 12%;
+  }
+  .register, .deconnexion{
+    right: 7%;
+  }
+  .navbar{
+    position: fixed;
+    z-index: 50;
+    top: 0;
+    width: 100%;
+  }
+//bouton rond
+  
+  .btn-circle:hover{
+    background-color: black;
+    color: rgb(255, 192, 32);
+  }
+  
+ 
+
+.panier{
+  position: absolute;
+
+}
+
+@media (min-width: 991px){
+  .panier{
+    right: 20px;
+  }
+  .btn-circle.btn-lg {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.33;
+    border-radius: 35px;
+    background-color: rgb(255, 192, 32);
+    color: black;
+    border: solid rgb(255, 192, 32);
+  }
+  #nb{
+    position: absolute;
+    right: 25px;
+    bottom: 19px;
+  }
+}
+@media (max-width: 992px){
+  .panier{
+    right: 80px;
+  }
+  .btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 24px;
+    background-color: rgb(255, 192, 32);
+    color: black;
+    border: solid rgb(255, 192, 32);
+  }
+  #nb{
+    position: absolute;
+    right: 8px;
+  }
+}

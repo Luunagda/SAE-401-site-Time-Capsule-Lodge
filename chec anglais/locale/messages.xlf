@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source> Slide <x id="INTERPOLATION"/> of <x id="INTERPOLATION_1"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source><x id="INTERPOLATION"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/ngb-config.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2483235248567024420" datatype="html">
+        <source>A propos</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3476583629594890489" datatype="html">
+        <source>Accueil</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4079860837776927959" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>A propos<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4957168390103320662" datatype="html">
+        <source>Qui somme nous ?</source>
+        <target>Who are we ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6160630600409210252" datatype="html">
+        <source>Time Capsule vous propose de loyer de chambre d&apos;hotel confortable et luxieuse. Mais ce n&apos;est pas tout, TCL est le seul hotel a proposer des capsules temporelle. Le principe est simple votre chambre possede une porte mennant vers un bout d&apos;histoire visitable sur le longterme et a plusieur reprise. Grace a cette technologie vous pouvez assister a des événement historique comme le débarquement de Normandie.</source>
+        <target>Time Capsule offers you to rent comfortable and luxurious hotel rooms. But that&apos;s not all, TCL is the only hotel to offer time capsules. The principle is simple your room has a door leading to a piece of history that can be visited in the long term and several times. Thanks to this technology you can attend historical events such as the Normandy landing.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8233020297243556587" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Attention<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> aucun des articles proposer n&apos;est réelement a vendre !</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1103490166443849276" datatype="html">
+        <source>L&apos;Histoire de l&apos;entreprise</source>
+        <target>The history of the company</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6738682597687581466" datatype="html">
+        <source>Time Capsule Lodge est un site web développé par Cyan Henaff et Louanne Dronne dans le cadre d&apos;un projet universitaire (SAÉ 301). Aucun produit ne sera délivré à la fin de votre réservation.</source>
+        <target>Time Capsule Lodge is a website developed by Cyan Henaff and Louanne Dronne as part of a university project (SAÉ 301). No product will be delivered at the end of your reservation.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1431298858931618704" datatype="html">
+        <source>Restons en contact</source>
+        <target>Let&apos;s stay in touch</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6219110056557518731" datatype="html">
+        <source>Idée de chambre ?</source>
+        <target>Room idea ?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6696108412114163418" datatype="html">
+        <source>Nom :</source>
+        <target>Name :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="252747989080528171" datatype="html">
+        <source>Prénom :</source>
+        <target>First name :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="545852091058454851" datatype="html">
+        <source>Email :</source>
+        <target>Email :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5990858610289084943" datatype="html">
+        <source>Proposition de chambre :</source>
+        <target>Room proposal :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5473271497203467844" datatype="html">
+        <source>Contactez nous</source>
+        <target>Contact us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7289254608873700795" datatype="html">
+        <source>Message :</source>
+        <target>Message :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/apropos/apropos.component.html</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8300975845221760912" datatype="html">
+        <source>Lieu</source>
+        <target>Place</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ elt.nom }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6987266665542025063" datatype="html">
+        <source>Espace Client</source>
+        <target>Customer Area</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7919452934138804929" datatype="html">
+        <source>Se connecter</source>
+        <target>Log in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/connexion/connexion.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6497544826155835104" datatype="html">
+        <source>Se déconnecter</source>
+        <target>Log out</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/bar-de-nav/bar-de-nav.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6378757424642743619" datatype="html">
+        <source>NOM ENTIER</source>
+        <target>FULL NAME</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/cartepayer/cartepayer.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5943680826967039753" datatype="html">
+        <source>Chambre proposant la catégorie <x id="INTERPOLATION" equiv-text="{{titreCategorie}}"/></source>
+        <target>Room offering the category <x id="INTERPOLATION" equiv-text="{{titreCategorie}}"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2583261825104481348" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/&quot; class=&quot;lien&quot;&gt;"/>Accueil<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8926070870512408856" datatype="html">
+        <source><x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;{{currentUrl}}&quot; class=&quot;lien&quot; style=&quot;color: black;&quot;&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/><x id="INTERPOLATION" equiv-text="{{titreCategorie}}"/><x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4736921631598676998" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{elt.titre}}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2393444579528772454" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{elt.prix | number: &apos;.0&apos;}}"/> XPF</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2497165784608187960" datatype="html">
+        <source>Date d&apos;arrivée :</source>
+        <target>Arrival date :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="671110058128522240" datatype="html">
+        <source>Date de départ :</source>
+        <target>Departure date :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4886426827096229135" datatype="html">
+        <source>Voir +</source>
+        <target>See +</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/catalogue/catalogue.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5841107036735220996" datatype="html">
+        <source>Modifier le profil</source>
+        <target>Edit profile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/client/client.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7909537954271394961" datatype="html">
+        <source>Image de profil</source>
+        <target>Profile picture</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/client/client.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1815195286714301387" datatype="html">
+        <source>Adresse</source>
+        <target>Address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/client/client.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6628356255817390419" datatype="html">
+        <source>Téléphone</source>
+        <target>Phone</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/client/client.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4977912145007192180" datatype="html">
+        <source>Enregistrer</source>
+        <target>Save</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/client/client.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6103118278620987967" datatype="html">
+        <source>Connexion</source>
+        <target>Log in</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/connexion/connexion.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8344083046598599642" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Appareil photo d&apos;époque </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">21,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3468845324877367038" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Garde robe </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="786112470943078809" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Assurance vie </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3955365439564466711" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Restauration </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">42,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8129172548472915751" datatype="html">
+        <source>Réserver</source>
+        <target>Book</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6674655859109350603" datatype="html">
+        <source>Voir le panier</source>
+        <target>See the cart</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/detail-chambre/detail-chambre.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="553776490187313155" datatype="html">
+        <source><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#flush-collapseOne&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;flush-collapseOne&quot;&gt;"/> Prix <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">5,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="439840332928286569" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> A partir de 30 000 XPF </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">13,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6708464143094322810" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Entre 30 001 et 50 000 XPF </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8895343413965916486" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Entre 50 001 et 70 000 XPF </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">23,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5470623908509235735" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Entre 70 001 et 100 000 XPF </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">28,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8570975680715799312" datatype="html">
+        <source><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#flush-collapseTwo&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;flush-collapseTwo&quot;&gt;"/> Époque <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2707404029470492748" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Avant -5000 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4189038045333990020" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De -5000 à -500 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3806124302695601832" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De -501 à 0 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">54,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7840780272262293877" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1 à 500 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2929655647120497526" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 501 à 1000 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">64,66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3615251892731172004" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1001 à 1500 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8787326717624429780" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1501 à 1900 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">74,76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3724447644629119574" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1901 à 1950 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">79,81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2645111548632576075" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1951 à 1980 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">84,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8711360055391455531" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> De 1981 à aujourd&apos;hui </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">89,91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8638921384995878907" datatype="html">
+        <source><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#flush-collapseThree&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;flush-collapseThree&quot;&gt;"/> Lieu <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">97,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5647473372494660489" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Afrique </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">105,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3786155930391766961" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Amérique du Nord et du Sud </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">110,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6504631984618532394" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Europe </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">115,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6351688599764180742" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Asie </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">120,122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4785505448859918852" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Moyen-Orient </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">125,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="610531055004471040" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Océanie </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">130,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="402098200162246887" datatype="html">
+        <source><x id="START_TAG_BUTTON" ctype="x-button" equiv-text="&lt;button class=&quot;accordion-button collapsed&quot; type=&quot;button&quot; data-bs-toggle=&quot;collapse&quot; data-bs-target=&quot;#flush-collapseFour&quot; aria-expanded=&quot;false&quot; aria-controls=&quot;flush-collapseThree&quot;&gt;"/> Type de chambre <x id="CLOSE_TAG_BUTTON" ctype="x-button" equiv-text="&lt;/button&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">138,140</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3082928466987586872" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Chambre de couple (2 personnes) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">146,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5722684677614576068" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkbox&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/> Chambre familiale (5 personnes) </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/filtre/filtre.component.html</context>
+          <context context-type="linenumber">151,153</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7131503233535545455" datatype="html">
+        <source>À propos</source>
+        <target>About</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3347392384326074278" datatype="html">
+        <source>Liens utiles</source>
+        <target>Useful links</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7200382139090502383" datatype="html">
+        <source>À propos et contact</source>
+        <target>About and contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7164540129836416689" datatype="html">
+        <source>Mentions légales</source>
+        <target>Legal notices</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2734463974311711640" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i &gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/> 20 rue de l’Espace Temps, à Y</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/footer/footer.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7417847203396132873" datatype="html">
+        <source>Payer</source>
+        <target>Pay</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8680528598963360181" datatype="html">
+        <source>Remplissez le formulaire pour valider la commande.</source>
+        <target>Fill out the form to validate the order.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8876246472358163640" datatype="html">
+        <source>Votre nom</source>
+        <target>Your name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7348793724173701867" datatype="html">
+        <source>Votre prénom</source>
+        <target>Your first name</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7641805547757751050" datatype="html">
+        <source>Votre mail</source>
+        <target>Your mail</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2103075757012540092" datatype="html">
+        <source>Votre adresse</source>
+        <target>Your address</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2470503829825948341" datatype="html">
+        <source>Votre ville</source>
+        <target>Your city</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8631536168598314157" datatype="html">
+        <source>Votre code postal</source>
+        <target>Your postal code</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4037278898547630220" datatype="html">
+        <source>Votre numéro de téléphone</source>
+        <target>Your phone number</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/formulaire/formulaire.component.html</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4019065422661735687" datatype="html">
+        <source>Frise chronologique de nos chambres</source>
+        <target>Timeline of our rooms</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/lieu/lieu.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5020497628497049401" datatype="html">
+        <source>Une porte vers l&apos;histoire</source>
+        <target>A door to history</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2178523224502691120" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/><x id="INTERPOLATION" equiv-text="{{elt.titre}}"/><x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br&gt;"/> <x id="INTERPOLATION_1" equiv-text="{{elt.contenu}}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">33,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6590834394539253922" datatype="html">
+        <source>En savoir +</source>
+        <target>Learn more</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="179979396683314480" datatype="html">
+        <source>À propos de nous</source>
+        <target>About us</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5820967168321927070" datatype="html">
+        <source> Bienvenu au Time Capsule Lodge ! Le seul hôtel vous offrant l’opportunité de revivre l’histoire, grâce aux divers capsules temporelles de nos chambres. Aucun risque de modifier l’histoire comme dans un vulgaire voyage temporel classique, ici chaque événement historique est protégé et rien ne vous empêche de le revivre plusieurs fois. </source>
+        <target> Welcome to the Time Capsule Lodge! The only hotel offering you the opportunity to relive history, thanks to the various time capsules in our rooms. No risk of changing history as in a vulgar classic time travel, here each historical event is protected and nothing prevents you from reliving it several times. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">45,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5585353966408671083" datatype="html">
+        <source>Les avis clients</source>
+        <target>Customer reviews</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3695275582222219236" datatype="html">
+        <source> Partagez votre avis avec les autres utilisateurs, votre expérience nous intéresse. </source>
+        <target> Share your opinion with other users, your experience interests us. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">60,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7746995355174291668" datatype="html">
+        <source>Photographe</source>
+        <target>Photographer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4860416291646576853" datatype="html">
+        <source>Docteur</source>
+        <target>Doctor</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5214377865093013987" datatype="html">
+        <source>Professeur</source>
+        <target>Teacher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/main.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7845976057481239030" datatype="html">
+        <source>Informations Développeur : Projet SAÉ 301 réalisé par Cyan Henaff et Louanne Dronne </source>
+        <target>Developer Information: SAÉ 301 project carried out by Cyan Henaff and Louanne Dronne </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="694919941566796287" datatype="html">
+        <source>Nous contacter : fausse.adress@gmail.com </source>
+        <target>Contact us:
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5000933395922090155" datatype="html">
+        <source>Conception graphique et images : https://www.pexels.com/ </source>
+        <target>Graphic design and images: https://www.pexels.com/ </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6339229664351754733" datatype="html">
+        <source>Toutes les images ne seront pas à usage commercial, elles resteront dans un contexte de projet universitaires. </source>
+        <target>All images will not be for commercial use, they will remain in a context of university projects. </target>  
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2958651496573396771" datatype="html">
+        <source>Conformément à l&apos;article 15 du Règlement général sur la protection des données (RGPD) du 27 avril 2016, vous disposez d&apos;un droit d&apos;accès aux informations vous concernant. Si vous trouvez que ces informations sont incorrectes. </source>
+        <target>In accordance with Article 15 of the General Data Protection Regulation (GDPR) of April 27, 2016, you have the right to access information about you. If you find that this information is incorrect. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6185658601048106729" datatype="html">
+        <source>L&apos;article 16 du RGPD vous permet de les modifier ou de les supprimer. Dans ce cas, merci de nous contacter : fausse.adress@gmail.com </source>
+        <target>Article 16 of the GDPR allows you to modify or delete them. In this case, please contact us:
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="660201180683206639" datatype="html">
+        <source>Pour toute question relative à la collecte ou au traitement de vos données personnelles par le site web, vous pouvez contacter le responsable de la protection des données du projet : fausse.adress@gmail.com </source>
+        <target>For any question relating to the collection or processing of your personal data by the website, you can contact the person in charge of the data protection of the project: 
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608972042934993139" datatype="html">
+        <source>Les fichiers détenus dans le cadre de Time Capsule Lodge qui comportent des données à caractère personnel ne seront jamais transmis à des tiers et ne feront jamais l&apos;objet d&apos;une commercialisation. </source>
+        <target>The files held as part of Time Capsule Lodge that contain personal data will never be transmitted to third parties and will never be marketed. </target>  
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5245814793794219878" datatype="html">
+        <source>Lors de la création de votre propre compte, vos informations seront envoyées dans une base de données. Pour les supprimer veuillez contacter fausse.adress@gmail.com. Les données seront supprimées dans un délai de 1 à 2 semaines. </source>
+        <target>When creating your own account, your information will be sent to a database. To delete them, please contact   The data will be deleted within 1 to 2 weeks. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8554716057112202428" datatype="html">
+        <source>Votre adresse ip d&apos;inscription est conservée dans la base de données par sécurité elle ne sera pas utilisée et sera supprimée à la suppression du compte. </source>
+        <target>Your registration ip address is kept in the database for security it will not be used and will be deleted when the account is deleted. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4098436236214733325" datatype="html">
+        <source>Aucun produit ne sera délivré à la fin de votre réservation.
+</source>
+        <target>No product will be delivered at the end of your reservation.
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/mentions-legales/mentions-legales.component.html</context>
+          <context context-type="linenumber">12,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4123744616703386227" datatype="html">
+        <source>Panier</source>
+        <target>Cart</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8459863057550989896" datatype="html">
+        <source>Produit</source>
+        <target>Product</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4524058496778684658" datatype="html">
+        <source>Prix U.</source>
+        <target>Unit price</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <target>Date</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7738074979890051735" datatype="html">
+        <source>Total Panier TTC</source>
+        <target>Total Cart TTC</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4573633386828111233" datatype="html">
+        <source>Montant TVA</source>
+        <target>VAT amount</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7393910098256536578" datatype="html">
+        <source>Frais livraison</source>
+        <target>Delivery fees</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3163377787880392203" datatype="html">
+        <source>Réduction</source>
+        <target>Discount</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="401542782936185335" datatype="html">
+        <source>Total à payer</source>
+        <target>Total to pay</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7757067130539155353" datatype="html">
+        <source>Retournez à l&apos;accueil</source>
+        <target>Return to home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="203440340159776229" datatype="html">
+        <source>Valider la commande</source>
+        <target>Validate the order</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="373362454834941425" datatype="html">
+        <source>Supprimer le panier</source>
+        <target>Delete the cart</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/panier/panier.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

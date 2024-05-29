@@ -1,0 +1,6 @@
+<pre class='xdebug-var-dump' dir='ltr'>
+<small>C:\Dev\dev front\angular\mvc angular\controllers\Backoffice.php:46:</small>
+<b>object</b>(<i>stdClass</i>)[<i>2</i>]
+  <i>public</i> 'username' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'test'</font> <i>(length=4)</i>
+  <i>public</i> 'password' <font color='#888a85'>=&gt;</font> <small>string</small> <font color='#cc0000'>'test'</font> <i>(length=4)</i>
+</pre>

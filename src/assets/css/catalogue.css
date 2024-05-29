@@ -1,0 +1,76 @@
+section{
+    display: flex;
+}
+/*pour le filtre*/
+.form-filtre{
+    position: sticky;
+    top:50%;
+    width: 100%;
+    padding: 2%;
+    height: 100%;
+    padding-top: 7%;
+    padding-bottom: 8%;
+    background-color: rgb(255, 241, 138);
+    margin: 0;
+    z-index: 2;
+    font-size: small;
+}
+.form-filtre label{
+    display: flex;
+}
+.form-filtre{
+    top: 0;
+}
+.catalogue{
+    width: 7000px;
+    display: flex;
+    top: 0px;
+}
+
+h1{
+    text-align: center;
+}
+.lien{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+}
+
+
+  .btn-filtre{
+    margin: 2%;
+    height: 100%;
+  }
+  .btn-filtre:hover{
+    background-color: rgb(255, 241, 138);
+    color: rgb(27, 27, 27);
+  }
+  
+  .checkbox-input {
+    display: none;
+  }
+  .checkbox-input:checked + label .checkbox:after {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .checkbox {
+    margin: 2%;
+    border: 1px solid rgb(43, 43, 43);
+    border-radius: 3px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    position: relative;
+  }
+  .checkbox:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 8px;
+    height: 8px;
+    background-color: rgb(43, 43, 43);
+    border-radius: 3px;
+    transition: 0.3s;
+  }

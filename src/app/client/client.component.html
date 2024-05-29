@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>Modifier le profil</h1>
+  <form [formGroup]="formClient" (submit)="UpdateUtilisateur()">
+    <div class="mb-3">
+      <label for="login" class="form-label">Login</label>
+      <input type="text" class="form-control" id="login" formControlName="login" name="login" value="{{login}}">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" formControlName="password" name="password" >
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" formControlName="email" name="email" value="{{email}}">
+    </div>
+    <div class="mb-3">
+      <label for="image" class="form-label">Image de profil</label>
+      <input type="file" class="form-control" id="image" formControlName="imageprofil" accept="image/*" value="{{imageprofil}}">
+      <img class="img-fluid mt-2"  alt="Image de profil">
+    </div>
+    <div class="mb-3">
+      <label for="adresse" class="form-label">Adresse</label>
+      <input type="text" class="form-control" id="adresse" formControlName="adresse" name="adresse" value="{{adresse}}">
+    </div>
+    <div class="mb-3">
+      <label for="telephone" class="form-label">Téléphone</label>
+      <input type="tel" class="form-control" id="telephone" formControlName="telephone" name="telephone" value="{{telephone}}">
+    </div>
+    <button type="submit" class="btn btn-warning" >Enregistrer</button>
+  </form>
+</div>
